@@ -22,6 +22,9 @@ This is a repo is to demonstrate working with multiple tables in Room only.
  For this we create a associate CrossRef object which has the primary keys of both the entites. Using the crossRef Table create the required data accordingly
  
  < br/>
+ ### Note
+ - Refer [Room Docs(https://developer.android.com/training/data-storage/room)
+ - [Multiple Rooms Playlist by Philip Lackner](https://www.youtube.com/watch?v=A8AUtcP0rRs&list=PLQkwcJG4YTCS3AD2C-yWtJUGTYMh5h3Zz&ab_channel=PhilippLackner)
  - Run the added queries or check it out in the database inspector, Run this on android preview.
  - Do not run queries on 'MAIN THREAD'
   
