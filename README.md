@@ -11,13 +11,13 @@ This is a repo is to demonstrate working with multiple tables in Room only.
  
  ### Relationships
  
- `**One to One**` 
+ `One to One`          
  Movie and Director can be an example of one to one relationship as movie can be directed by a single person.
       
- `**One to Many**` 
+ `One to Many`         
  Director and Movie can be taken as One to Many because one director can direct multiple movies. For this we create a MovieDirector which returns a list of movies directed.
  
- `**Many to Many**` 
+ `Many to Many`        
  Movie and Character can be represented as Many to Many because one character can be a part of many movies and vice versa. 
  For this we create a associate CrossRef object which has the primary keys of both the entites. Using the crossRef Table create the required data accordingly
  
