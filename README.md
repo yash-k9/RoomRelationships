@@ -21,7 +21,7 @@ This is a repo is to demonstrate working with multiple tables in Room only.
  Movie and Character can be represented as Many to Many because one character can be a part of many movies and vice versa. 
  For this we create a associate CrossRef object which has the primary keys of both the entites. Using the crossRef Table create the required data accordingly
  
- < br />
+ < br/>
  - Run the added queries or check it out in the database inspector, Run this on android preview.
  - Do not run queries on 'MAIN THREAD'
   
